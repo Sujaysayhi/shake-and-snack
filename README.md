@@ -5,9 +5,9 @@ A two-screen Android app that helps people decide what to eat. Choose a cuisine,
 Built with **MIT App Inventor** for INFT3101 (App Development) at Durham College, September 2026.
 
 <p align="center">
-  <img src="screenshots/01-welcome.jpg" width="200" alt="Welcome screen">
-  <img src="screenshots/04-veg-italian-result.jpg" width="200" alt="Vegetarian Italian result">
-  <img src="screenshots/05-spicy-indian-result.jpg" width="200" alt="Spicy Indian result">
+  <img src="01-welcome.jpg" width="200" alt="Welcome screen">
+  <img src="04-veg-italian-result.jpg" width="200" alt="Vegetarian Italian result">
+  <img src="05-spicy-indian-result.jpg" width="200" alt="Spicy Indian result">
 </p>
 
 ## Features
@@ -40,7 +40,10 @@ The core logic sits in one procedure, `pickMeal`:
 | TextToSpeech | Reads the result aloud |
 | Notifier | Empty-name alert |
 
-Screenshots of all the block code are in [`blocks/`](blocks/).
+### Block code
+
+<img src="03-pickMeal-part1.png" width="600" alt="pickMeal procedure part 1">
+<img src="04-pickMeal-part2.png" width="600" alt="pickMeal procedure part 2">
 
 ## Testing
 
@@ -66,7 +69,7 @@ Tested on a Samsung Galaxy S25 Ultra (Android 16) using the installed `.apk`, an
 
 ## Run it yourself
 
-1. Download `ShakeAndSnack.aia` from this repo
+1. Download the `.aia` file from this repo
 2. Go to [ai2.appinventor.mit.edu](https://ai2.appinventor.mit.edu) and sign in
 3. Choose **Projects → Import project (.aia) from my computer**
 4. Test it with the MIT AI2 Companion app, or build an `.apk`
@@ -79,7 +82,7 @@ Tested on a Samsung Galaxy S25 Ultra (Android 16) using the installed `.apk`, an
 
 ## Full report
 
-The full project report covers design, blocks, testing and reflection: [`docs/Shake-and-Snack-Report.pdf`](docs/Shake-and-Snack-Report.pdf)
+The full project report covers design, blocks, testing and reflection: [Shake-and-Snack-Report.pdf](Shake-and-Snack-Report.pdf)
 
 ---
 
